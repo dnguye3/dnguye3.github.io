@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "diana-nguyen-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A site that serves as Diana Nguyen's personal site and coding portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Diana Nguyen <nguyendiana@outlook.com>",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
