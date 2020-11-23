@@ -13,7 +13,7 @@ body {
     font-family: $ibm-plex-sans;
     font-size: 16px;
     overflow-x: hidden;
-    overflow-y: hidden;
+    // overflow-y: hidden;
 }
 
 p {
@@ -81,9 +81,10 @@ header {
     align-items: left;
     position: relative;
     height: 100vh;
-    .row {
+    .home-page-row {
         position: relative;
         .main-text{
+            padding-left: 10px;
             font-size: 1.75rem;
             position: absolute;
             top: 50%;
@@ -151,4 +152,29 @@ a:hover .photos {
 
 .social-icon-left {
     color: $social-icon;
+}
+
+
+// Projects page
+.project-grid{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inner-project-grid{
+    // margin-top: 5rem;
+    top: 50%;
+    transform: translateY(25%);
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    // align-items: center;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    grid-auto-rows: 300px;
+}
+
+.project-card {
+    padding-left: 10px;
 }
