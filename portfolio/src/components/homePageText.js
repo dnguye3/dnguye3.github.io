@@ -9,7 +9,7 @@ const HomePageText = () => {
     return (
         <div className="home-page-text">
             <div className="container">
-                <div className="row">
+                <div className="home-page-row">
                     <div className="main-text">
                         <h1>Hi, I&#39;m Diana – a scientist turned software engineer based in Seattle.</h1>
                         <p>I’m currently a software engineering intern at <a href="https://vulcan.com"><span className="vulcan">Vulcan</span></a> on the Allen Coral Atlas team.<br></br>
