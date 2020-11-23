@@ -2,11 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;400;600&display=swap');
 $ibm-plex-sans: 'IBM Plex Sans', sans-serif;
 
+// Colors
+$vulcan: #95a72196;
+$code: rgb(255, 190, 190);
+$photos: rgb(195, 228, 255);
+$social-icon: rgb(179, 179, 179);
+
 html, 
 body {
     font-family: $ibm-plex-sans;
     font-size: 16px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 p {
@@ -83,4 +90,65 @@ header {
             transform: translateY(50%);
         }
     }
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover .vulcan {
+    background-color: $vulcan;
+    color: white;
+    padding: 2px;
+}
+
+a:hover .code {
+    background-color: $code;
+    color: white;
+    padding: 2px;
+}
+
+a:hover .photos {
+    background-color: $photos;
+    color: white;
+    padding: 2px;
+}
+
+.vulcan {
+    background-color: white;
+    font-weight: 700;
+    color: $vulcan;
+}
+
+.code {
+    background-color: white;
+    font-weight: 700;
+    color: $code;
+}
+
+.photos {
+    background-color: white;
+    font-weight: 700;
+    color: $photos;
+}
+
+.social-icon {
+    color: $social-icon;
+    margin: 0 0 0 20px;
+}
+
+.social-icon-left {
+    color: $social-icon;
 }
