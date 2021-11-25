@@ -10,11 +10,6 @@ const Header = () => (
         <div className="logo">
           <Link to="/">DIANA NGUYEN</Link>
         </div>
-        <div className="navigation">
-          <nav>
-            <Link to="/projects">Projects</Link>
-          </nav>
-        </div>
       </div>
     </div>
   </header>
